@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Olimpiadas" id="3FB07EDC-7FB3-DE19-5B18-0A083DDDA74C" version="3.5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-10 17:30:21 UTC</createdTime>
+<ownerDesignName>Olimpiadas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3FB07EDC-7FB3-DE19-5B18-0A083DDDA74C</designId>
+</OSDM_Design>
