@@ -1,0 +1,4 @@
+select nombreequipamiento, nombrecomplejo
+from 
+group by nombreequipamiento, nombrecomplejo
+ORDER BY  fecha;
