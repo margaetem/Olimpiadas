@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24251385-95DB-1810-A0F0-35CBCA55AA35" name="cartelera">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:48:04 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cartelera" id="1AF51B12-071F-7446-2DC6-835DCDB88A79">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:48:55 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="semana" id="58E765B8-061B-0B48-438E-7838F7D7D32D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:48:10 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="5C7991A8-EDF6-82AD-356B-04476DD0B5AE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:51:20 UTC</createdTime>
+<generatorID>59DF73BF-162F-BAC8-6501-520A5BE9E2C7</generatorID>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<referedAttribute>D315EFF0-78A6-06F0-D018-F8289D20D90C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71194E7C-7CEC-9FA2-C07D-B4641B612F00" name="cartelera PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:49:10 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AF51B12-071F-7446-2DC6-835DCDB88A79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13ABBD31-FE3D-3999-2EC3-A43674BA295C" name="funcion">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:34:55 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_funcion" id="37C44EBB-41CA-F171-DD16-BEB9F461D247">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:35:01 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia_semana" id="194B09C2-720A-9EA0-BCEF-7358D515FAD0">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:36:06 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_comienzo" id="01980748-1F74-1D72-4C67-F22239DAF8F1">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:37:05 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35BD7EEA-4DC7-C401-4170-7C56B92CB814" name="funcion PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:36:05 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37C44EBB-41CA-F171-DD16-BEB9F461D247</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93329A69-ACD8-2D4F-1F94-FB969AFFE7CF" name="reparto">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:12:52 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reparto" id="AB1B9C3E-8992-5FF2-EB35-1BF59744D54F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:13:02 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="8F07B56E-3A46-0D91-8E49-0AB6E3145B9B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:13:38 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelicula" id="78D36F86-A71D-6659-BE54-3857F407155F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:26:45 UTC</createdTime>
+<generatorID>515A833E-06BC-B9EB-4AFB-4984FA6E42D8</generatorID>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<referedAttribute>6A5E4381-31E9-9673-EF1F-0F361B22C480</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35FCF251-5CDD-3B6A-AE2A-7070EF5DAFE8" name="Reparto PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:13:37 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB1B9C3E-8992-5FF2-EB35-1BF59744D54F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

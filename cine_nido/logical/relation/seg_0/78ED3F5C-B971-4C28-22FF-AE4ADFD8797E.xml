@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="funcioncartelera" directorySegmentName="seg_0" id="78ED3F5C-B971-4C28-22FF-AE4ADFD8797E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-11 21:50:13 UTC</createdTime>
+<ownerDesignName>cine_nido</ownerDesignName>
+<engineerTo>
+<item key="CB2A7212-0B58-D977-704B-535BB89E130F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>13ABBD31-FE3D-3999-2EC3-A43674BA295C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24251385-95DB-1810-A0F0-35CBCA55AA35</targetEntity>
+<transferable>true</transferable>
+</Relation>
